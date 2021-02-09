@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <!-- Question 1 -->
+    <h3>1. Create a Digital Clock using html, css , JS obviously, and add two buttons below the clock to toggle timing between 24-12 hour. Set AM/PM depending on the hour value. The Date object works in 24-hour format so we change hour back to 1 when it gets larger than 12. The AM/PM also changes according to that. And if hour, min or seconds are less than 10 then add 0 before that example:</h3>
+    <p>9:10:6 ----> 09:10:06</p>
+    <b>Answer:</b><div id="clock"></div>
+    <!-- /Question 1 -->
+
+    <!-- Question 2 -->
+    <h3>2. Write a simple JS program to join all elements of the following array into a string.</h3>
+    <p>Sample array: myColor = ["Red", "Green", "White", "Black"];</p>
+    <p>Expected Output:</p>
+    <p>"Red, Green, White, Black"</p>
+    <p>"Red, Green, White, Black"</p>
+    <p>"Red+Green+White+Black"</p>
+    <label for="q2input1">Enter the number of elements</label>
+    <input type="text" id="q2input1"><br><br>
+    <button type="button" onclick="return qstn2()">Answer</button>
+    <!-- /Question 2 -->
+
+    <!-- Question 3 -->
+    <h3>3. Write a JS program to sort the items of an array</h3>
+    <p>Sample array: var arr1 = [3, 8, 7, 6, 5, -4, 3, 2, 1];</p>
+    <p>Sample Output: -4, 3, 1, 2, 3, 5, 6, 7, 8</p>
+    <label for="q3input1">Enter the number of elements</label>
+    <input type="text" id="q3input1"><br><br>
+    <button type="button" onclick="return qstn3()">Answer</button>
+    <!-- /Question 3 -->
+
+    <!-- Question 4 -->
+    <h3>4. Write a JS program to find the most frequent item of an array</h3>
+    <p>Sample array: var arr1 = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];</p>
+    <p>Sample Output: a (5 times)</p>
+    <label for="q4input1">Enter the number of elements</label>
+    <input type="text" name="q4input1" id="q4input1"><br><br>
+    <button type="button" onclick="return qstn4()">Answer</button>
+    <!-- /Question 4 -->
+
+    <!-- Question 5 -->
+    <h3>5. Write a JS program to add items in an blank array and display the items.</h3>
+    <label for="q5input1">Enter the number of elements</label>
+    <input type="text" id="q5input1"><br><br>
+    <button type="button" onclick="return qstn5()">Answer</button>
+    <!-- /Question 5 -->
+
+    <!-- Question 6 -->
+    <h3>6. Write a JS program to remove duplicate items from an array (ignore case sensitivity)</h3>
+    <label for="q6input1">Enter the number of elements</label>
+    <input type="text" id="q6input1"><br><br>
+    <button type="button" onclick="return qstn6()">Answer</button>
+    <!-- /Question 6 -->
+
+    <!-- Question 7 -->
+    <h3>7. Write a JS program to remove items from a dropdown list.</h3>
+    <select id="courseSelect">
+        <option>Web Development</option>
+        <option>Python</option>
+        <option>Fashion Desigining</option>
+        <option>Java Script</option>
+        <option>Political Science</option>
+    </select>
+    <input type="button" onclick="qstn7()" value="Select and Remove">
+    <!-- /Question 7 -->
+
+    <!-- Scripts -->
+    <script src="/js/qstn1.js"></script>
+    <script src="/js/qstn2.js"></script>
+    <script src="/js/qstn3.js"></script>
+    <script src="/js/qstn4.js"></script>
+    <script src="/js/qstn5.js"></script>
+    <script src="/js/qstn6.js"></script>
+    <script src="/js/qstn7.js"></script>
+    <!-- /Scripts -->
+</body>
+</html>
