@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    
+</head>
+<body>
+    <!-- Question 1 -->
+    <h3>1. Credit Card Validation <br>
+        You're starting your own credit card business. You need to come up with a new way to validate credit cards with a simple function called validateCreditCard that returns true or false. Here are the rules for a valid number:
+        <ul>
+            <li>The number must be 16 digits, all of them must be numbers</li>
+            <li>You must have at least two different digits represented (all of the digits cannot be the same)</li>
+            <li>The final digit must be even</li>
+            <li>The sum of all the digits must be greater than 16</li>
+        </ul>
+        The following credit card numbers are valid:
+        <ul>
+            <li>9999777788880000</li>
+            <li>6666666666661666</li>
+        </ul>
+        The following credit card numbers are invalid:
+        <ul>
+            <li>a92332119c011112 <i>invalid characters</i></li>
+            <li>a92332119c011112 <i>invalid characters</i></li>
+            <li>1111111111111110 <i>sum less than 16</i></li>
+            <li>6666666666666661 <i>odd final number</i></li>
+        </ul>
+    </h3>
+    <input type="text" name="q1input1" id="q1input1" placeholder="Enter the card number"><br><br>
+    <button onclick="return validateCreditCard()">Answer</button>
+    <!-- /Question 1 -->
+
+    <!-- Question 2 -->
+    <h3>2. Write a Javascript function to get the difference between two dates in days</h3>
+    <input type="text" name="q2input1" id="q2input1" placeholder="Enter the date"><br><br>
+    <input type="text" name="q2input2" id="q2input2" placeholder="Enter the date"><br><br>
+    <button type="button" onclick="return qstn2()">Answer</button>
+    <!-- /Question 2 -->
+    
+    <!-- Question 3 -->
+    <h3>3. Write a Javascript function to get the least common multiple (LCM) of two numbers.</h3>
+    <input type="text" name="q3input1" id="q3input1" placeholder="Enter the first number"><br><br>
+    <input type="text" name="q3input2" id="q3input2" placeholder="Enter the second number"><br><br>
+    <button type="button" onclick="return qstn3()">Answer</button>
+    <!-- /Question 3 -->
+    
+    <!-- Question 4 -->
+    <h3>4. Write a Javascript program to find the Amstrong numbers of 3 numbers</h3>
+    <button type="button" onclick="return qstn4()">Answer</button>
+    <!-- /Question 4 -->
+    
+    <!-- Question 5 -->
+    <h3>5. Write a JS program to get the width and height of the window (any time the window is resized).</h3>
+    <body onload="getSize()" onresize="getSize()">
+    <div id="wh">
+    <!-- /Question 5 -->
+    <!-- Scripts -->
+    <script src="js/qstn1.js"></script>
+    <script src="js/qstn2.js"></script>
+    <script src="js/qstn3.js"></script>
+    <script src="js/qstn4.js"></script>
+    <script src="js/qstn5.js"></script>
+    <!-- /Scripts -->
+</body>
+</html>
