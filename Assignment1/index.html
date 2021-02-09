@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+</head>
+<body>
+    <!-- Question 1 -->
+    <h3>1. Write a JS conditional statement to sort three numbers. Display an alert box to show the result.</h3>
+    a. <i>Sample numbers</i> : 0, -1, 4<br>b. <i>Output</i> : 4, 0 ,-1<br>
+    <label for="q1input1">Input 1</label>
+    <input type="text" name="q1input1" id="q1input1"><br><br>
+    <label for="q1input2">Input 2</label>
+    <input type="text" name="q1input2" id="q1input2"><br><br>
+    <label for="q1input3">Input 3</label>
+    <input type="text" name="q1input3" id="q1input3"><br><br>
+    <button type="button" onclick="return qstn1()">Answer</button>
+    <!-- /Question 1 -->
+
+    <!-- Question 2 -->
+    <h3>2. Write a JS for a loop that will iterate from n times. For each iteration, it will check if the current number is odd, even or prime, and display a message on the screen.</h3>
+    a. "0 is even"<br>b. "1 is odd"<br>c."2 is even and prime"<br>d."3 is odd and prime"<br>e. "4 is even"<br><br>
+    <label for="q2input1">Input n</label>
+    <input type="text" name="q2input1" id="q2input1"><br><br>
+    <button type="button" onclick="return qstn2()">Answer</button>
+    <!-- /Question 2 -->
+    
+    <!-- Question 3 -->
+    <h3>3. Write a JS program to construct the following pattern, using a nested for loop.</h3>
+    * * * * *<br>* * * *<br>* * *<br>* *<br>*<br><br>
+    <button type="button" onclick="return qstn3()">Answer</button>
+    <!--/Question 3  -->
+
+    <!-- Question 4 -->
+    <h3>4. Write a JS function to hide email addresses to protect from unauthorized user</h3>
+    <i>Test Data:</i><br>console.log(protect_email("eddygrant@example.com"));<br><u>"eddy....@example.com"</u><br><br>
+    <label for="q4input1">Email</label>
+    <input type="email" name="q4input1" id="q4input1"><br><br>
+    <button type="button" onclick="return qstn4()">Answer</button>
+    <!-- /Question 4 -->
+
+    <!-- Question 5 -->
+    <h3>5. Write a JS function to capitalize the first letter of each word in a string</h3>
+    console.log(capitalize_Words('hi from skillsanta'));<br>"Hi From Skillsanta"<br><br>
+    <label for="q5input1">Input</label>
+    <input type="text" name="q5input1" id="q5input1"><br><br>
+    <button type="button" onclick="return qstn5()">Answer</button>
+    <!-- /Question 5 -->
+
+    <!-- Question 6 -->
+    <h3>6.Write a JS function to truncate a string to a certain number of words.</h3>
+    Test Data:<br>console.log(truncate('The quick brown fox jumps over the lazy dog,4));<br>Output:<br>"The quick brown fox"<br><br>
+    <label for="q6input1">Input</label>
+    <input type="text" name="q6input1" id="q6input1"><br><br>
+    <label for="q6input2">Input</label>
+    <input type="text" name="q6input2" id="q6input2"><br><br>
+    <button type="button" onclick="return qstn6()">Answer</button>
+    <!-- /Question 6 -->
+
+    <!-- Question 7 -->
+    <h3>7. Write a JS function to find a word within a string.</h3>
+    Test Data:<br>console.log(search_word(The quick brown fox','fox'));<br>console.log(search_word('aa,bb,cc,dd,aa','aa'));<br>Output:<br>"'fox' was found 1 times."<br>"'aa' was found 2 times."<br><br>
+    <label for="q7input1">String</label>
+    <input type="text" name="q7input1" id="q7input1"><br><br>
+    <label for="q7input2">Word to search</label>
+    <input type="text" name="q7input2" id="q7input2"><br><br>
+    <button type="button" onclick="return qstn7()">Answer</button>
+    <!-- /Question 7 -->
+
+    <!-- Question 8 -->
+    <h3>8. Write a JS function to print the Fibanacci series of n times.</h3>
+    <label for="q8input1">Input n</label>
+    <input type="text" name="q8input1" id="q8input1"><br><br>
+    <button type="button" onclick="return qstn8()">Answer</button>
+    <!-- /Question 8 -->
+
+    <!-- Question 9 -->
+    <h3>9. The temperature Converter</h3>
+    <h4>Create a function called Celsius to Farenheit:</h4>
+    <ul>
+        <li>Store a Celsius temperature into a variable.</li>
+        <li>Convert it to Farenheit and output "NN°C is NN°F."</li>
+    </ul>
+    <label for="q9input1">Input</label>
+    <input type="text" name="q9input1" id="q9input1"><br><br>
+    <button type="button" onclick="return qstn9a()">Answer</button>
+    <h4>Create a function called Farenheit to Celsius:</h4>
+    <ul>
+        <li>Now store a Farenheit temperature into a variable.</li>
+        <li>Convert it to Farenheit and output "NN°F is NN°C."</li>
+    </ul>
+    <label for="q9input2">Input</label>
+    <input type="text" name="q9input2" id="q9input2"><br><br>
+    <button type="button" onclick="return qstn9b()">Answer</button>
+    <!-- /Question 9 -->
+
+    <!-- Question 10 -->
+    <h3>10. Write a JS function that takes a string which has lower and upper case letters as a parameters and converts upper case letters to lower case, and lower case letters to upper case.</h3>
+    <label for="q10input1">Input</label>
+    <input type="email" name="q10input1" id="q10input1"><br><br>
+    <button type="button" onclick="return qstn10()">Answer</button>
+    <!-- /Question 10 -->
+
+    <!-- Scripts -->
+    <script src="/js/qstn1.js"></script>
+    <script src="/js/qstn2.js"></script>
+    <script src="/js/qstn3.js"></script>
+    <script src="/js/qstn4.js"></script>
+    <script src="/js/qstn5.js"></script>
+    <script src="/js/qstn6.js"></script>
+    <script src="/js/qstn7.js"></script>
+    <script src="/js/qstn8.js"></script>
+    <script src="/js/qstn9.js"></script>
+    <script src="/js/qstn10.js"></script>
+    <!-- /Scripts -->
+</body>
+</html>
